@@ -1,0 +1,65 @@
+body {
+    background-color: #1B1B32;
+    font-family: "Castoro Titling";
+  }
+  #container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+  img {
+    width: 300px;
+  }
+  #container h1 {
+    color: white;
+  }
+  #inputbox {
+    background-color: #3B3B4F;
+    border: 2px solid white;
+    min-width: 500px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #inputbox p {
+    color: white;
+    font-size: 30px;
+  }
+  #inputbox input {
+    width: 70vw;
+    height: 90px;
+    background-color: #0A0A23;
+    border: 0.5px solid white;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: white;
+    padding: 10px;
+  }
+  #inputbox button {
+    width: 70vw;
+    height: 90px;
+    background-color: #FFBB3F;
+    color: black;
+    font-size: 20px;
+    border: 1px solid #FEAC32;
+    margin-bottom: 20px;
+  }
+  #output {
+    max-width: 500px;
+    min-width: 0;
+    background-color: #FFADAD;
+    border: 2px solid #850000;
+    color: #850000;
+    height: 60px;
+    margin: 20px auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    padding: 5px;
+  }
+  
